@@ -54,8 +54,8 @@ function LongJump(score, callback) {
 
 function HighJump(score, callback) {
   console.log("HighJump started!");
-  // let color = prompt("What colour secured the highest jump?");
-  let color = "red";
+  let color = prompt("What colour secured the highest jump?");
+//   let color = "red";
   if (color === null || color === "") {
     console.log("Event was cancelled");
     // callback(score, AwardCeremony);
